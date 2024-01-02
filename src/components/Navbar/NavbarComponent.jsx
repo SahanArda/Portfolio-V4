@@ -20,7 +20,7 @@ const NavbarComponent = () => {
           <Navbar.Toggle aria-controls="offcanvasNavbar-expand-md" />
           <Navbar.Offcanvas
             id="offcanvasNavbar-expand-md"
-            aria-labelledby=" offcanvasNavbarLabel-expand-md"
+            aria-labelledby="offcanvasNavbarLabel-expand-md"
             placement="end"
             backdrop="static"
             data-bs-theme="dark"

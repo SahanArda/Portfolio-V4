@@ -4,8 +4,12 @@
     box-sizing: border-box;
 }
 
+:root {
+    --background-color: #040015;
+
+    --text-color: #bbbbbb;
+}
+
 body {
-    background-color: #040015;
-    /* min-height: 150vh; */
-    color: white;
+    background-color: var(--background-color);
 }
