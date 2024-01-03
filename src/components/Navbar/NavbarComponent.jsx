@@ -37,7 +37,7 @@ const NavbarComponent = () => {
               </Offcanvas.Title>
             </Offcanvas.Header>
             <Offcanvas.Body>
-              <Nav className="justify-content-end flex-grow-1 gap-3">
+              <Nav className="justify-content-end flex-grow-1 gap-3 pe-3">
                 <Nav.Link className={styles.nav_link} href="/">
                   Home
                 </Nav.Link>
