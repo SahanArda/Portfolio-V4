@@ -12,4 +12,29 @@
   z-index: -1;
   -o-object-fit: cover;
      object-fit: cover;
+}
+.main .toggle {
+  border: none;
+}
+.main nav .nav_link {
+  color: var(--white);
+  transition: 0.3s ease-in-out;
+}
+.main nav .nav_link:hover {
+  color: #6ea8fe;
+}
+.main nav .resume_btn {
+  transition: 0.3s ease-in-out;
+}
+.main nav NavDropdown {
+  color: var(--white);
+}
+.main nav .icon .github_icon {
+  margin: 0 0.2rem 0 0;
+}
+.main nav .icon .linkedin_icon {
+  margin: 0 0.35rem 0 0;
+}
+.main nav .icon .email_icon {
+  margin: 0 0.3rem 0 0;
 }/*# sourceMappingURL=NavbarComponent.module.css.map */
