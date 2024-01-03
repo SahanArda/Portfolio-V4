@@ -1,10 +1,10 @@
-import { Navbar, Hero, Experience, Projects, Contact, Footer } from '../../components/index'
+import { NavbarComponent, Hero, Experience, Projects, Contact, Footer } from '../../components/index'
 import styles from "./Home.module.css";
 
 const Home = () => {
   return (
     <div className={styles.main_container}>
-      <Navbar />
+      <NavbarComponent />
       <Hero />
       <Experience />
       <Projects />

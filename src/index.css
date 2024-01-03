@@ -3,3 +3,14 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+:root {
+    --background-color: #040015;
+
+    --white: #ffffff;
+    --text-color: #bbbbbb;
+}
+
+body {
+    background-color: var(--background-color);
+}
