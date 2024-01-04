@@ -34,4 +34,37 @@ section .title_container .desc {
   max-width: 590px;
   line-height: 1.8;
   color: var(--text-color);
+}
+@media screen and (max-width: 760px) {
+  section .title_container {
+    margin: 0 20px;
+  }
+  section .title_container .hero_title {
+    font-size: 50px;
+  }
+  section .title_container .desc {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 440px) {
+  section .title_container {
+    margin: 0 20px;
+  }
+  section .title_container .hero_title {
+    font-size: 40px;
+  }
+  section .title_container .desc {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 362px) {
+  section .title_container {
+    margin: 0 20px;
+  }
+  section .title_container .hero_title {
+    font-size: 33px;
+  }
+  section .title_container .desc {
+    font-size: 13px;
+  }
 }/*# sourceMappingURL=Hero.module.css.map */
