@@ -2,7 +2,7 @@ import styles from "./Hero.module.css";
 
 const Hero = () => {
   return (
-    <section className={styles.hero_container}>
+    <div className={styles.hero_container} id="Hero">
       <svg
         className={styles.hero_stars}
         xmlns="http://www.w3.org/2000/svg"
@@ -268,7 +268,7 @@ const Hero = () => {
           turn ideas into digital realities.
         </p>
       </div>
-    </section>
+    </div>
   );
 };
 

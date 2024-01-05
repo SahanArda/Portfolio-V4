@@ -14,3 +14,9 @@
 body {
     background-color: var(--background-color);
 }
+
+section {
+    max-width: 1300px;
+    padding: 25px;
+    margin: 0 auto;
+}
