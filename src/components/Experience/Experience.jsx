@@ -1,25 +1,22 @@
 import styles from "./Experience.module.css";
+import ExperienceCard from "../ExperienceCard/ExperienceCard";
 
 const Experience = () => {
   return (
     <section id="experience" className={styles.experience_section}>
       <h2>Experience</h2>
-      <div className={styles.experience_container}>
-        <div className={styles.experience_title}>June 2023 - Present</div>
-
-        <div className={styles.experience_desc}>
-          <h3>
-            <img src="/src/assets/mrhb.png" alt="mrhb" />
-            <span>MRHB.Network - Software Engineer Intern</span>
-          </h3>
-          <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos,
-            ratione nemo reiciendis fuga quo asperiores fugit eveniet impedit
-            rerum corrupti ex doloribus eligendi ut, dolor nesciunt veniam? In,
-            dignissimos ab?
-          </p>
-        </div>
-      </div>
+      <ExperienceCard
+        duration="June 2023 - Present"
+        img="/src/assets/mrhb.png"
+        imgAlt="mrhb"
+        companyAndPosition="MRHB.Network - Software Engineer Intern"
+        description="Lorem ipsum, dolor sit amet consectetur adipisicing elit. QuosLorem ipsum, dolor sit amet consectetur adipisicing elit. QuosLorem ipsum, dolor sit amet consectetur adipisicing elit. Quosrem ipsum, dolor sit amet consectetur adipisicing elit. Quosrem ipsum, dolor sit amet consectetur adipisicing elit. Quos"
+        skillSet1="ReactJs"
+        skillSet2="Typescript"
+        skillSet3="NodeJs"
+        skillSet4="NestJs"
+        // skillSet5="MongoDB"
+      />
     </section>
   );
 };

@@ -1,0 +1,44 @@
+.experience_container {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 1rem;
+}
+.experience_container .experience_duration {
+  color: var(--text-color);
+  max-width: 100px;
+}
+.experience_container .experience_desc {
+  flex: 1;
+}
+.experience_container .experience_desc p {
+  color: var(--text-color);
+  max-width: -moz-fit-content;
+  max-width: fit-content;
+}
+.experience_container .experience_desc img {
+  width: 50px;
+  margin-right: 0.5rem;
+}
+.experience_container .experience_desc span {
+  background: linear-gradient(#fff, #a5a5a5);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.experience_container .skill_container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.experience_container .skill_container span {
+  margin-right: 0.5rem;
+}
+
+@media screen and (max-width: 969px) {
+  .experience_container {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .experience_container .experience_duration {
+    max-width: 100%;
+  }
+}/*# sourceMappingURL=ExperienceCard.module.css.map */
