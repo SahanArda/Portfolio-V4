@@ -1,0 +1,11 @@
+.experience_section {
+  display: flex;
+  flex-direction: column;
+}
+.experience_section h2 {
+  font-size: 22px;
+  background: linear-gradient(#fff, #a5a5a5);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 2rem;
+}/*# sourceMappingURL=Experience.module.css.map */

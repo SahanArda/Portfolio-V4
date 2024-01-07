@@ -41,7 +41,7 @@ const NavbarComponent = () => {
                 <Nav.Link className={styles.nav_link} href="/">
                   Home
                 </Nav.Link>
-                <Nav.Link className={styles.nav_link} href="#action2">
+                <Nav.Link className={styles.nav_link} href="#Experience">
                   Experience
                 </Nav.Link>
                 <Nav.Link className={styles.nav_link} href="#action2">
