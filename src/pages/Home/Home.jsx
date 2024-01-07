@@ -1,4 +1,4 @@
-import { NavbarComponent, Hero, Experience, Projects, Contact, Footer } from '../../components/index'
+import { NavbarComponent, Hero, Experience, Projects, Footer } from '../../components/index'
 import styles from "./Home.module.css";
 
 const Home = () => {
@@ -8,7 +8,6 @@ const Home = () => {
       <Hero />
       <Experience />
       <Projects />
-      <Contact />
       <Footer />
     </div>
   );
