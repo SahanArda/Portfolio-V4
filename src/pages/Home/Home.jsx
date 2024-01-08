@@ -1,4 +1,4 @@
-import { NavbarComponent, Hero, Experience, Projects, Footer } from '../../components/index'
+import { NavbarComponent, Hero, Experience, Projects, Footer } from '../../sections/index.js'
 import styles from "./Home.module.css";
 
 const Home = () => {

@@ -20,3 +20,10 @@ section {
     padding: 25px;
     margin: 0 auto;
 }
+
+/* .card {
+    background-color: #8200ff;
+    background: linear-gradient(#fff, #8200ff);
+    background: rgb(130,0,255);
+    background: linear-gradient(135deg, rgba(130,0,255,1) 0%, rgba(45,45,50,1) 0%);
+} */

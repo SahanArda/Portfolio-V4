@@ -1,5 +1,5 @@
 import styles from "./Experience.module.css";
-import ExperienceCard from "../ExperienceCard/ExperienceCard";
+import ExperienceCard from "../../components/ExperienceCard/ExperienceCard";
 
 const Experience = () => {
   return (
@@ -11,11 +11,7 @@ const Experience = () => {
         imgAlt="mrhb"
         companyAndPosition="MRHB.Network - Software Engineer Intern"
         description="Lorem ipsum, dolor sit amet consectetur adipisicing elit. QuosLorem ipsum, dolor sit amet consectetur adipisicing elit. QuosLorem ipsum, dolor sit amet consectetur adipisicing elit. Quosrem ipsum, dolor sit amet consectetur adipisicing elit. Quosrem ipsum, dolor sit amet consectetur adipisicing elit. Quos"
-        skillSet1="ReactJs"
-        skillSet2="Typescript"
-        skillSet3="NodeJs"
-        skillSet4="NestJs"
-        // skillSet5="MongoDB"
+        skillSet="ReactJs Typescript NodeJs NestJs"
       />
     </section>
   );
