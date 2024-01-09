@@ -1,4 +1,4 @@
-import { NavbarComponent, Hero, Experience, Projects, Footer } from '../../sections/index.js'
+import { NavbarComponent, Hero, Experience, Projects } from '../../sections/index.js'
 import styles from "./Home.module.css";
 
 const Home = () => {
@@ -8,7 +8,6 @@ const Home = () => {
       <Hero />
       <Experience />
       <Projects />
-      <Footer />
     </div>
   );
 };

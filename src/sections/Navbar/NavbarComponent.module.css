@@ -1,5 +1,4 @@
 .main .nav_bar {
-  background: rgba(3, 0, 20, 0.0901960784);
   -webkit-backdrop-filter: blur(10px);
           backdrop-filter: blur(10px);
 }
@@ -18,13 +17,13 @@
 }
 .main nav .nav_link {
   color: var(--white);
-  transition: 0.3s ease-in-out;
+  transition: 0.2s ease-in-out;
 }
 .main nav .nav_link:hover {
-  color: #6ea8fe;
+  color: var(--accent-color);
 }
 .main nav .resume_btn {
-  transition: 0.3s ease-in-out;
+  transition: 0.2s ease-in-out;
 }
 .main nav NavDropdown {
   color: var(--white);
