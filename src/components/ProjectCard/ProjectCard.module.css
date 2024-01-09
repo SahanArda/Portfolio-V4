@@ -1,4 +1,7 @@
-.gradient {
+.full_card:hover {
+  border: 1px solid var(--border-hover);
+}
+.full_card .gradient {
   position: relative;
   top: 0;
   left: 0;
@@ -6,20 +9,44 @@
   height: 250px;
   position: absolute;
   background: radial-gradient(100% 100% at 0% 0%, hsla(0, 0%, 100%, 0.1), transparent);
+  border-radius: 9px 0 0 0;
 }
-
-.github_icon {
-  font-size: 30px;
-  color: black;
+.full_card .icon {
+  margin-top: 10px;
 }
-
-.link_icon {
+.full_card .icon .test {
+  padding: fit-content;
+  pointer-events: none;
+}
+.full_card .icon .test .github_icon {
+  color: var(--text-color);
   font-size: 28px;
+  transition: color 0.2s ease-in-out;
+  pointer-events: auto;
 }
-
-.card_body .title {
+.full_card .icon .test .github_icon:hover {
+  color: var(--white);
+}
+.full_card .icon .test .link_icon {
+  color: var(--text-color);
+  font-size: 25px;
+  transition: color 0.2s ease-in-out;
+  pointer-events: auto;
+}
+.full_card .icon .test .link_icon:hover {
+  color: var(--white);
+}
+.full_card .card_body .title {
+  background: linear-gradient(#fff, #a5a5a5);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   font-size: 22px;
 }
-.card_body .desc {
+.full_card .card_body .desc {
+  color: var(--text-color);
   font-size: 14px;
+}
+.full_card .card_body .tech {
+  color: var(--text-color);
+  letter-spacing: 1px;
 }/*# sourceMappingURL=ProjectCard.module.css.map */

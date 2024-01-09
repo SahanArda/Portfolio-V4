@@ -1,0 +1,14 @@
+.error_section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 83vh;
+}
+.error_section .error_container {
+  color: var(--white);
+}
+.error_section .error_container h1 {
+  background: linear-gradient(#fff, #8200ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}/*# sourceMappingURL=Error.module.css.map */

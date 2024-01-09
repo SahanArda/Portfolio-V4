@@ -2,7 +2,7 @@ import styles from "./Hero.module.css";
 
 const Hero = () => {
   return (
-    <div className={styles.hero_container} id="Hero">
+    <div className={styles.hero_container} id="Home">
       <svg
         className={styles.hero_stars}
         xmlns="http://www.w3.org/2000/svg"

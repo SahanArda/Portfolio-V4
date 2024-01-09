@@ -1,12 +1,23 @@
-import Button from "react-bootstrap/Button";
-import Container from "react-bootstrap/Container";
-import Nav from "react-bootstrap/Nav";
-import Navbar from "react-bootstrap/Navbar";
-import Offcanvas from "react-bootstrap/Offcanvas";
-import NavDropdown from "react-bootstrap/NavDropdown";
+import {
+  Button,
+  Container,
+  Nav,
+  Navbar,
+  Offcanvas,
+  NavDropdown,
+} from "react-bootstrap";
+import Blackhole from "../../components/Blackhole/Blackhole";
+import { Link as ScrollLink } from "react-scroll";
+import { useState } from "react";
 import styles from "./NavbarComponent.module.css";
 
 const NavbarComponent = () => {
+  const [expanded, setExpanded] = useState(false);
+
+  const handleSelect = () => {
+    setExpanded(false);
+  };
+
   return (
     <div className={styles.main}>
       <Navbar
@@ -15,6 +26,7 @@ const NavbarComponent = () => {
         className={`mb-3 ${styles.nav_bar}`}
         data-bs-theme="dark"
         fixed="top"
+        expanded={expanded}
       >
         <Container fluid>
           <Navbar.Brand className="ps-3" href="/">
@@ -23,6 +35,7 @@ const NavbarComponent = () => {
           <Navbar.Toggle
             className={styles.toggle}
             aria-controls="offcanvasNavbar-expand-md"
+            onClick={() => setExpanded(!expanded)}
           />
           <Navbar.Offcanvas
             id="offcanvasNavbar-expand-md"
@@ -30,6 +43,7 @@ const NavbarComponent = () => {
             placement="end"
             backdrop="static"
             data-bs-theme="dark"
+            show={expanded}
           >
             <Offcanvas.Header closeButton>
               <Offcanvas.Title id="offcanvasNavbarLabel-expand-md">
@@ -38,15 +52,45 @@ const NavbarComponent = () => {
             </Offcanvas.Header>
             <Offcanvas.Body>
               <Nav className="justify-content-end flex-grow-1 gap-3 pe-3">
-                <Nav.Link className={styles.nav_link} href="/">
+                <ScrollLink
+                  className={`nav-link ${styles.nav_link}`}
+                  to="Home"
+                  smooth={false}
+                  duration={500}
+                  offset={-100}
+                  onClick={() => {
+                    handleSelect();
+                    setExpanded(false);
+                  }}
+                >
                   Home
-                </Nav.Link>
-                <Nav.Link className={styles.nav_link} href="#Experience">
+                </ScrollLink>
+                <ScrollLink
+                  to="Experience"
+                  smooth={false}
+                  duration={500}
+                  offset={-100}
+                  className={`nav-link ${styles.nav_link}`}
+                  onClick={() => {
+                    handleSelect();
+                    setExpanded(false);
+                  }}
+                >
                   Experience
-                </Nav.Link>
-                <Nav.Link className={styles.nav_link} href="#action2">
+                </ScrollLink>
+                <ScrollLink
+                  to="Projects"
+                  smooth={false}
+                  duration={500}
+                  offset={-100}
+                  className={`nav-link ${styles.nav_link}`}
+                  onClick={() => {
+                    handleSelect();
+                    setExpanded(false);
+                  }}
+                >
                   Projects
-                </Nav.Link>
+                </ScrollLink>
                 <NavDropdown
                   title={<span className={styles.nav_link}>Contact</span>}
                   id="offcanvasNavbarDropdown-expand-md"
@@ -100,9 +144,7 @@ const NavbarComponent = () => {
         </Container>
       </Navbar>
 
-      <video autoPlay muted loop className={styles.blackhole}>
-        <source src="/blackhole.webm" type="video/webm" />
-      </video>
+      <Blackhole />
     </div>
   );
 };
