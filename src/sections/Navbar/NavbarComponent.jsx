@@ -14,6 +14,10 @@ import styles from "./NavbarComponent.module.css";
 const NavbarComponent = () => {
   const [expanded, setExpanded] = useState(false);
 
+  const handleToggle = () => {
+    setExpanded(!expanded);
+  };
+
   const handleSelect = () => {
     setExpanded(false);
   };
@@ -27,6 +31,7 @@ const NavbarComponent = () => {
         data-bs-theme="dark"
         fixed="top"
         expanded={expanded}
+        onToggle={handleToggle}
       >
         <Container fluid>
           <Navbar.Brand className="ps-3" href="/">
@@ -35,7 +40,6 @@ const NavbarComponent = () => {
           <Navbar.Toggle
             className={styles.toggle}
             aria-controls="offcanvasNavbar-expand-md"
-            onClick={() => setExpanded(!expanded)}
           />
           <Navbar.Offcanvas
             id="offcanvasNavbar-expand-md"
@@ -43,7 +47,6 @@ const NavbarComponent = () => {
             placement="end"
             backdrop="static"
             data-bs-theme="dark"
-            show={expanded}
           >
             <Offcanvas.Header closeButton>
               <Offcanvas.Title id="offcanvasNavbarLabel-expand-md">
