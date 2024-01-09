@@ -6,6 +6,7 @@
   border: none;
 }
 .main nav .nav_link {
+  cursor: pointer;
   color: var(--white);
   transition: 0.2s ease-in-out;
 }
