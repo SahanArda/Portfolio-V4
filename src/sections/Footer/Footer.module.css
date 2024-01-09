@@ -2,21 +2,21 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 30px 0;
-  border-top: 1px solid #2d2d2d;
+  padding: 25px 0;
+  border-top: 1px solid var(--border-color);
   color: var(--text-color);
 }
 .footer .contact_links {
   display: flex;
   gap: 20px;
-  font-size: 18px;
+  font-size: 20px;
 }
 .footer .contact_links a .icons {
   color: var(--text-color);
   transition: color 0.2s ease-in-out;
 }
 .footer .contact_links a .icons:hover {
-  color: var(--accent-color);
+  color: var(--white);
 }
 
 @media screen and (max-width: 650px) {
