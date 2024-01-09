@@ -22,7 +22,7 @@ const ProjectCard = ({
         <ul className="nav justify-content-end">
           <li className={`nav-item ${styles.icon}`}>
             <a
-              className="nav-link"
+              className={`nav-link ${styles.test}`}
               href={githubLink}
               target="_blank"
               rel="noopener noreferrer"
@@ -32,7 +32,7 @@ const ProjectCard = ({
           </li>
           <li className={`nav-item ${styles.icon}`}>
             <a
-              className="nav-link"
+              className={`nav-link ${styles.test}`}
               href={demoLink}
               target="_blank"
               rel="noopener noreferrer"

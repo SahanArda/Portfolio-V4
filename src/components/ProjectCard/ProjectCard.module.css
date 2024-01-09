@@ -14,20 +14,26 @@
 .full_card .icon {
   margin-top: 10px;
 }
-.full_card .icon .github_icon {
+.full_card .icon .test {
+  padding: fit-content;
+  pointer-events: none;
+}
+.full_card .icon .test .github_icon {
   color: var(--text-color);
   font-size: 28px;
   transition: color 0.2s ease-in-out;
+  pointer-events: auto;
 }
-.full_card .icon .github_icon:hover {
+.full_card .icon .test .github_icon:hover {
   color: var(--white);
 }
-.full_card .icon .link_icon {
+.full_card .icon .test .link_icon {
   color: var(--text-color);
   font-size: 25px;
   transition: color 0.2s ease-in-out;
+  pointer-events: auto;
 }
-.full_card .icon .link_icon:hover {
+.full_card .icon .test .link_icon:hover {
   color: var(--white);
 }
 .full_card .card_body .title {
@@ -42,4 +48,5 @@
 }
 .full_card .card_body .tech {
   color: var(--text-color);
+  letter-spacing: 1px;
 }/*# sourceMappingURL=ProjectCard.module.css.map */

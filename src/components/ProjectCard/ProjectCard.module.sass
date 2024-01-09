@@ -17,21 +17,27 @@
     .icon
         margin-top: 10px
 
-        .github_icon
-            color: var(--text-color)
-            font-size: 28px
-            transition: color 0.2s ease-in-out
+        .test
+            padding: fit-content
+            pointer-events: none
 
-            &:hover
-                color: var(--white)
+            .github_icon
+                color: var(--text-color)
+                font-size: 28px
+                transition: color 0.2s ease-in-out
+                pointer-events: auto
 
-        .link_icon
-            color: var(--text-color)
-            font-size: 25px
-            transition: color 0.2s ease-in-out
+                &:hover
+                    color: var(--white)
 
-            &:hover
-                color: var(--white)
+            .link_icon
+                color: var(--text-color)
+                font-size: 25px
+                transition: color 0.2s ease-in-out
+                pointer-events: auto
+
+                &:hover
+                    color: var(--white)
 
     .card_body
 
@@ -47,3 +53,4 @@
 
         .tech
             color: var(--text-color)
+            letter-spacing: 1px

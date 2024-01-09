@@ -12,6 +12,8 @@
         p
             color: var(--text-color)
             max-width: fit-content
+            font-size: 16px
+            letter-spacing: 0.5px
 
         img
             width: 50px
@@ -22,10 +24,20 @@
             -webkit-background-clip: text
             -webkit-text-fill-color: transparent
 
+    .skill_container
+        font-size: 14px
+
 @media screen and (max-width: 969px)
     .experience_container
         flex-direction: column
-        // gap: 10px
 
         .experience_duration
             max-width: 100%
+            margin-bottom: 0.5rem
+
+@media screen and (max-width: 649px)
+    .experience_container
+
+        .experience_desc
+            p
+                font-size: 14px
