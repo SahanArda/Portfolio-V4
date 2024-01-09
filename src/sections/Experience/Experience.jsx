@@ -3,7 +3,7 @@ import ExperienceCard from "../../components/ExperienceCard/ExperienceCard";
 
 const Experience = () => {
   return (
-    <section id="experience" className={styles.experience_section}>
+    <section id="Experience" className={styles.experience_section}>
       <h2>Experience</h2>
       <ExperienceCard
         duration="June 2023 - Present"

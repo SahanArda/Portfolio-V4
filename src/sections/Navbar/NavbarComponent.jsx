@@ -4,6 +4,7 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import Offcanvas from "react-bootstrap/Offcanvas";
 import NavDropdown from "react-bootstrap/NavDropdown";
+import Blackhole from "../../components/Blackhole/Blackhole";
 import styles from "./NavbarComponent.module.css";
 
 const NavbarComponent = () => {
@@ -38,13 +39,13 @@ const NavbarComponent = () => {
             </Offcanvas.Header>
             <Offcanvas.Body>
               <Nav className="justify-content-end flex-grow-1 gap-3 pe-3">
-                <Nav.Link className={styles.nav_link} href="/">
+                <Nav.Link className={styles.nav_link} href="#Home">
                   Home
                 </Nav.Link>
                 <Nav.Link className={styles.nav_link} href="#Experience">
                   Experience
                 </Nav.Link>
-                <Nav.Link className={styles.nav_link} href="#action2">
+                <Nav.Link className={styles.nav_link} href="#Projects">
                   Projects
                 </Nav.Link>
                 <NavDropdown
@@ -100,9 +101,7 @@ const NavbarComponent = () => {
         </Container>
       </Navbar>
 
-      <video autoPlay muted loop className={styles.blackhole}>
-        <source src="/blackhole.webm" type="video/webm" />
-      </video>
+      <Blackhole />
     </div>
   );
 };
