@@ -1,5 +1,5 @@
 # Personal Portfolio V2
-Welcome, this is my second iteration of my personal portfolio. This project is built using ReactJs and Bootstrap to showcase my skills, projects, and experience. You can visit the site here https://www.ardasahan.com.
+Welcome, this is my second iteration of my personal portfolio. This project is built using ReactJs, Bootstrap and Sass to showcase my skills, projects, and experience. You can visit the site here https://www.ardasahan.com.
 
 ![demo](public/assets/demo.png)
  
