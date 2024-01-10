@@ -1,8 +1,31 @@
-# React + Vite
+# Personal Portfolio V2
+Welcome, this is my second iteration of my personal portfolio. This project is built using ReactJs and Bootstrap to showcase my skills, projects, and experience. You can visit the site here https://www.ardasahan.com.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![demo](public/assets/demo.png)
+ 
+## 🛠 Set up
+1. Install dependencies
 
-Currently, two official plugins are available:
+   ```sh
+   npm install
+   ```
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 How to run Project
+
+1. Start project
+
+   ```sh
+   npm run dev
+   ```
+
+## 🎨 color codes
+
+| Color          | Hex                                                                |
+| -------------- | ------------------------------------------------------------------ |
+| **Background** | ![#040015](https://via.placeholder.com/10/040015?text=+) `#040015` |
+| **Accent**     | ![#6ea8fe](https://via.placeholder.com/10/6ea8fe?text=+) `#6ea8fe` |
+| **Border**     | ![#2d2d2d](https://via.placeholder.com/10/2d2d2d?text=+) `#2d2d2d` |
+| **Hover**      | ![#4c4c4c](https://via.placeholder.com/10/4c4c4c?text=+) `#4c4c4c` |
+| **Text**       | ![#bbbbbb](https://via.placeholder.com/10/bbbbbb?text=+) `#bbbbbb` |
+| **Card**       | ![#1c1c1c98](https://via.placeholder.com/10/1c1c1c98?text=+) `#1c1c1c98` |
+| **White**      | ![#ffffff](https://via.placeholder.com/10/ffffff?text=+) `#ffffff` |
