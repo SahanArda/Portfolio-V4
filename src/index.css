@@ -9,6 +9,7 @@
     --accent-color: #6ea8fe;
     --border-color: #2d2d2d;
     --border-hover: #4c4c4c;
+    --card-color: #1c1c1c98;
 
     --white: #ffffff;
     --text-color: #bbbbbb;
@@ -29,7 +30,7 @@ section {
 }
 
 .card {
-    background-color: #1c1c1c98;
+    background-color: var(--card-color);
     border-radius: 10px;
-    border: 1px solid #2d2d2d;
+    border: 1px solid var(--border-color);
 }
