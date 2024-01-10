@@ -7,10 +7,4 @@
   z-index: -1;
   -o-object-fit: cover;
      object-fit: cover;
-}
-
-@media screen and (max-width: 768px) {
-  .blackhole {
-    top: 0;
-  }
 }/*# sourceMappingURL=Blackhole.module.css.map */
