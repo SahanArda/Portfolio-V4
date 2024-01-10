@@ -13,7 +13,7 @@ const Projects = () => {
           skills, projects, and professional journey, offering a comprehensive glimpse into my capabilities. "
           technologies="ReactJs Sass Bootstrap"
           githubLink="https://github.com/SahanArda/Portfolio-V4"
-          demoLink="/"
+          demoLink="https://www.ardasahan.com/"
         />
         <ProjectCard
           title="Bookshelf"
@@ -34,7 +34,7 @@ const Projects = () => {
           description="This is my first iteration of my portfolio website. This was created when I was first learning web development."
           technologies="HTML CSS Javascript"
           githubLink="https://github.com/SahanArda/Portfolio-V1"
-          demoLink="/"
+          demoLink="https://sahan-v1.netlify.app/"
         />
         
       </div>
