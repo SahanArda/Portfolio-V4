@@ -1,1 +1,1 @@
-{"version":3,"sources":["Blackhole.module.sass","Blackhole.module.css"],"names":[],"mappings":"AAAA;EACI,kBAAA;EACA,SAAA;EACA,OAAA;EACA,WAAA;EACA,YAAA;EACA,WAAA;EACA,oBAAA;KAAA,iBAAA;ACCJ;;ADCA;EACI;IACI,SAAA;ECEN;AACF","file":"Blackhole.module.css"}
+{"version":3,"sources":["Blackhole.module.sass","Blackhole.module.css"],"names":[],"mappings":"AAAA;EACI,kBAAA;EACA,SAAA;EACA,OAAA;EACA,WAAA;EACA,YAAA;EACA,WAAA;EACA,oBAAA;KAAA,iBAAA;ACCJ;;ADCA;EACI;IACI,MAAA;ECEN;AACF","file":"Blackhole.module.css"}
