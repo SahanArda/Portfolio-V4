@@ -6,7 +6,7 @@ const Experience = () => {
     <section id="Experience" className={styles.experience_section}>
       <h2>Experience</h2>
       <ExperienceCard
-        duration="June 2023 - Present"
+        duration="June 2023 - June 2024"
         img="/assets/mrhb.png"
         imgAlt="mrhb"
         companyAndPosition="MRHB.Network - Software Engineer Intern"
@@ -14,7 +14,7 @@ const Experience = () => {
         I honed my skills in backend development using Node.js with the NestJS framework and TypeScript. 
         Collaborating with the engineering team, I actively contributed to feature development and performed bug fixes across the codebase. 
         This experience provided invaluable insights into decentralized systems and blockchain technology, shaping my growth as a proficient and adaptable software engineer in the industry."
-        skillSet="ReactJs Typescript NodeJs NestJs"
+        skillSet="Javascript Typescript NodeJs NestJs"
       />
     </section>
   );

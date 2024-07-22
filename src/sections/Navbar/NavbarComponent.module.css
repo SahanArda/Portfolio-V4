@@ -13,14 +13,11 @@
 .main nav .nav_link:hover {
   color: var(--accent-color);
 }
-.main nav .resume_btn {
+.main nav .github_btn {
   transition: 0.2s ease-in-out;
 }
 .main nav NavDropdown {
   color: var(--white);
-}
-.main nav .icon .github_icon {
-  margin: 0 0.2rem 0 0;
 }
 .main nav .icon .linkedin_icon {
   margin: 0 0.35rem 0 0;
