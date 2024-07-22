@@ -6,14 +6,12 @@ const ProjectCard = ({
   description,
   technologies,
   githubLink,
-  demoLink,
 }) => {
   ProjectCard.propTypes = {
     title: PropTypes.string.isRequired,
     description: PropTypes.string.isRequired,
     technologies: PropTypes.string.isRequired,
     githubLink: PropTypes.string.isRequired,
-    demoLink: PropTypes.string.isRequired,
   };
   return (
     <div className="col">
@@ -28,16 +26,6 @@ const ProjectCard = ({
               rel="noopener noreferrer"
             >
               <i className={`fa-brands fa-github ${styles.github_icon}`} />
-            </a>
-          </li>
-          <li className={`nav-item ${styles.icon}`}>
-            <a
-              className={`nav-link ${styles.test}`}
-              href={demoLink}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <i className={`fa-solid fa-link ${styles.link_icon}`}></i>
             </a>
           </li>
         </ul>

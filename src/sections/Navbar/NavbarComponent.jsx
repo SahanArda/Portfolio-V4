@@ -98,7 +98,7 @@ const NavbarComponent = () => {
                   title={<span className={styles.nav_link}>Contact</span>}
                   id="offcanvasNavbarDropdown-expand-md"
                 >
-                  <NavDropdown.Item
+                  {/* <NavDropdown.Item
                     className={styles.icon}
                     href="https://github.com/SahanArda"
                     target="_blank"
@@ -108,8 +108,7 @@ const NavbarComponent = () => {
                       className={`fa-brands fa-github fa-lg ${styles.github_icon}`}
                     />{" "}
                     Github
-                  </NavDropdown.Item>
-                  <NavDropdown.Divider />
+                  </NavDropdown.Item> */}
                   <NavDropdown.Item
                     className={styles.icon}
                     href="https://www.linkedin.com/in/arda-sahan-142309250/"
@@ -134,12 +133,15 @@ const NavbarComponent = () => {
                   </NavDropdown.Item>
                 </NavDropdown>
                 <Button
-                  href="/Resume.pdf"
+                  href="https://github.com/SahanArda"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className={styles.resume_btn}
+                  className={styles.github_btn}
                 >
-                  Resume
+                  <i
+                    className={`fa-brands fa-github fa-lg ${styles.github_icon}`}
+                  />{" "}
+                  Github
                 </Button>
               </Nav>
             </Offcanvas.Body>
